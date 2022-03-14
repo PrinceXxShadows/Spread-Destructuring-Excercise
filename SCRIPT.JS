@@ -75,7 +75,7 @@ const moreAvengers = {
 
 // 4e
 
-const {nat, ...others} = moreAvengers;
+const {blackWidow:nat, ...others} = moreAvengers;
 
 // 4f
 
