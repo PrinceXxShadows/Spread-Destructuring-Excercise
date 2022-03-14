@@ -97,5 +97,5 @@ const bonus = {
   const [one, two, three, four, five, six, seven, eight, nine] = all; 
   
   
-  console.log(one);
+  console.log(one, two, three, four, five, six, seven, eight, nine);
   
