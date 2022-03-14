@@ -87,8 +87,10 @@ const bonus = {
   };
 
   
-  const {first, second, third}= bonus 
-  const all = [...first, ...second, ...third];  
+  const all = [
+      ...bonus.first, 
+      ...bonus.second, 
+      ...bonus.third];  
   console.log(all);
 
 
@@ -96,11 +98,4 @@ const bonus = {
   
   
   console.log(one);
-  console.log(two);
-  console.log(three);
-  console.log(four);
-  console.log(five);
-  console.log(six);
-  console.log(seven);
-  console.log(eight);
-  console.log(nine);
+  
